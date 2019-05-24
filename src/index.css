@@ -1,0 +1,12 @@
+body {
+  background-color: #323232;
+  color: white;
+  margin: 2%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

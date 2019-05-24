@@ -1,0 +1,26 @@
+.App-header {
+  font-weight: bold;
+}
+
+.q {
+  color: #00ee3b !important;
+}
+
+.white {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff00;
+}
+
+u {
+  color: #00ff00;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+NavLink .go-back {
+  color: white !important;
+}

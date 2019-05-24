@@ -1,0 +1,27 @@
+.whole-question {
+  margin-bottom: 35px;
+}
+
+.date {
+  color: #e9ec54;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.question {
+  color: #b387ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.question-other {
+  margin-left: 40px;
+}
+
+.answer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
