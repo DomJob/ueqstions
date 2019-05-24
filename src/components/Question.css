@@ -1,5 +1,6 @@
 .whole-question {
   margin-bottom: 35px;
+  hyphens: auto;
 }
 
 .date {
