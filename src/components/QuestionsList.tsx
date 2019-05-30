@@ -4,7 +4,8 @@ import { Question } from "./Question";
 
 type qlProps = {
   questions: question[];
-  onClickedPrevious?: () => void;
+  onClickMore?: () => void;
+  previousLabel?: string;
   moreQuestions: boolean;
 };
 
@@ -16,7 +17,9 @@ export function QuestionsList(props: qlProps) {
       ))}
 
       {props.moreQuestions && props.questions.length > 0 ? (
-        <u onClick={() => props.onClickedPrevious!()}>PREVIOUS QUESTIONS</u>
+        <u onClick={() => props.onClickMore!()}>
+          {props.previousLabel ? props.previousLabel : "PREVIOUS QUESTIONS"}
+        </u>
       ) : (
         ""
       )}

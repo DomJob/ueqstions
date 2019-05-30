@@ -43,3 +43,15 @@ export async function getByDate(date: string): Promise<questionsResult> {
     throw new Error("Unexpected error");
   }
 }
+
+export async function random(): Promise<questionsResult> {
+  let url = "https://ueqstions.dom.gg/api/random";
+
+  const response = await fetch(url);
+
+  if (response.ok) {
+    return await response.json();
+  } else {
+    throw new Error("Unexpected error");
+  }
+}

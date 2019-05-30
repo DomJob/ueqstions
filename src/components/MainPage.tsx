@@ -3,6 +3,7 @@ import { SearchBar } from "./SearchBar";
 import { QuestionsList } from "./QuestionsList";
 import useMainPage from "../useMainPage";
 import "./MainPage.css";
+import { NavLink } from "react-router-dom";
 
 export default function MainPage() {
   const [query, setQuery] = useState<string>("");
@@ -12,13 +13,17 @@ export default function MainPage() {
   return (
     <div className="App">
       <h1 className="App-header">
-        ue<span className="q">q</span>stions
+        ue
+        <NavLink to="/random" className="q">
+          q
+        </NavLink>
+        stions
       </h1>
       <SearchBar onInputChanged={(q: string) => setQuery(q)} />
 
       <QuestionsList
         questions={questions}
-        onClickedPrevious={() => loadMore()}
+        onClickMore={() => loadMore()}
         moreQuestions={moreQuestions}
       />
 

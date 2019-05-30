@@ -1,9 +1,3 @@
-/*
-var re = /apples/gi; 
-var str = "Apples are round, and apples are juicy.";
-var newstr = str.replace(re, "oranges"); 
-console.log(newstr)
-*/
 export function formatDate(date: string) {
   let year = date.substr(2, 2);
   let month = date.substr(4, 2);
