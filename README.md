@@ -1,3 +1,3 @@
-https://ueqstions.dom.gg/
+https://ueqstions.qot.app/
 
 
